@@ -1,0 +1,23 @@
+nx - number of rows of spins (even number)
+10
+ny - number of columns of spins (even number)
+10
+nz - number of columns of spins (even number)
+10
+npass - number of passes for each temperature
+100000000
+nequil - number of equilibration steps for each temperature
+50000000
+nskip - sampling every nskip steps, reduce correlation error
+11
+high_temp - temperature to start scan at
+1200.0
+low_temp - temperature to finish scan at
+1150.0
+temp_interval - scanning interval
+1.0
+J1 - nearest neighboring exchange constant(mev). 1mev=11.6045K
+-26.3
+J2 - nearest neighboring exchange constant(mev). 1mev=11.6045K
+-1.3
+
